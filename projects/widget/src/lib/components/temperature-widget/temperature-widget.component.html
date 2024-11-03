@@ -1,0 +1,6 @@
+<lib-widget-header>
+    <h2>Temperature</h2>
+</lib-widget-header>
+<lib-widget-content *ngIf="temperature$ | async as temperature">
+    <h3>{{temperature}} C°</h3>
+</lib-widget-content>

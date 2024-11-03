@@ -1,0 +1,8 @@
+<lib-widget-header>
+    <section>
+        <h2>Wind Speed</h2>
+    </section>
+</lib-widget-header>
+<lib-widget-content *ngIf="windspeed$ | async as windspeed">
+  <h3>{{ windspeed }} kph</h3>
+</lib-widget-content>

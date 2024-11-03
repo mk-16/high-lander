@@ -1,0 +1,14 @@
+
+:host {
+    text-transform: capitalize;
+}
+lib-widget-header {
+    background-color: black;
+    color: antiquewhite;
+}
+
+lib-widget-content {
+    background-color: orange;
+    color: black;
+    font-weight: bolder;
+}
